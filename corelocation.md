@@ -5,7 +5,7 @@
 ## 一. iOS8.0之前的定位
 ### 1. 前台定位    
 
-1. 导入CoreLocation框架以及对应的主头文件
+1. 导入CoreLocation框架(`Xcode5`之后不需要导入)以及对应的主头文件
 
 		#import <CoreLocation/CoreLocation.h>
 
@@ -18,12 +18,18 @@
 	
 		[self.locationM startUpdatingLocation];
 	
+  > CLLocationManager有个类方法可以判断当前应用的定位功能是否可用
+
+  > +(BOOL)locationServicesEnabled;
+
 4. 在对应的代理方法中获取位置信息
 
 		-(void)locationManager:(nonnull CLLocationManager *)manager didUpdateLocations:(nonnull NSArray<CLLocation > *)locations  
 		{
 			NSLog(@"每当请求到位置信息时, 都会调用此方法");  
 		}
+`iOS 6.0之后必须`
+
 
 ### 2. 后台定位
 1. 在前台定位基础上, 勾选后台模式Location updates
