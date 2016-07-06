@@ -33,13 +33,13 @@
     	_imageView.layer.borderWidth = 2;
     	_imageView.layer.borderColor = [UIColor whiteColor].CGColor;
 		
-		
 		设置图片的圆角半径
 		_imageView.layer.cornerRadius = 50;
 		裁剪,超出裁剪区域的部分全部裁剪掉
     	_imageView.layer.masksToBounds = YES;
-    	注意:UIImageView当中Image并不是直接添加在层上面的.这是添加在layer当中的contents里.
-    	我们设置层的所有属性它只作用在层上面.对contents里面的东西并不起作用.所以我们看不到图片有圆角的效果.
+`注意:UIImageView当中Image并不是直接添加在层上面的.这是添加在layer当中的contents里.`
+
+        我们设置层的所有属性它只作用在层上面.对contents里面的东西并不起作用.所以我们看不到图片有圆角的效果.
     	想要让图片有圆角的效果.可以把masksToBounds这个属性设为YES,
     	当设为YES,把就会把超过根层以外的东西都给裁剪掉.
     	
