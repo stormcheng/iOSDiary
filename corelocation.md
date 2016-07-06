@@ -105,7 +105,8 @@
 		self.locationM = [[CLLocationManager alloc] init];
 		self.locationM.delegate = self;
 
-3. *请求前台定位授权, 并在Info.Plist文件中配置Key ( Nslocationwheninuseusagedescription )*
+3. **请求前台定位授权**    
+需要在Info.Plist文件中配置Key ( Nslocationwheninuseusagedescription )
 
 		[self.locationM requestWhenInUseAuthorization];
 
@@ -125,7 +126,7 @@
 ##### 方案一:
 
 1. 在前台定位基础上, 勾选后台模式Location updates
-![image](./CoreLocation_Images/勾选后台模式location udpates.png)
+
 
 ###### *注意:此时授权状态如果是前台定位, 那么当APP退到后台时, 屏幕顶部会出现蓝条*
 
@@ -142,7 +143,7 @@
 ### 3. 监听用户授权状态
 
 1. 实现以下代理方法即可
-
+```objc
 		// 当用户授权状态发生变化时调用
 		-(void)locationManager:(nonnull CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
 		{
@@ -196,7 +197,7 @@
             break;
     	}
     	}
-
+```
 ### 4. 测试环境:
 	1. XCode版本无要求
 	2. 模拟器选择iOS8.0之后的版本
@@ -207,7 +208,7 @@
 		其次,检查模拟器是否设置位置数据
 		第三,确保代码无问题(一般都是代理没有设置,或者位置管理器对象是局部变量,亦或是位置管理器对象没有被强引用)
 		第四,绝逼是模拟器BUG, 请重置模拟器(是重置,不是重启)
-		
+        第五，适配不同版本的系统，需要考虑能不能对新方法响应。[self.manger responseToSelector:];
 ----
 
 ## 三. iOS9.0 定位补充(✨✨✨)
