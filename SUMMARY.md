@@ -16,7 +16,7 @@
    * [02 - 基本线条绘制](相关文件/iOS_笔记/`md.md)
    * [03 - 进度条](02_-_jin_du_tiao.md)
    * [04 - 饼图](03_-_bing_tu.md)
-   * [05 - UIKit绘](05_-_uikithui.md)
+   * [05 - UIKit绘图](05_-_uikithui.md)
 * 小项目
    * [微博个人页](相关文件/iOS_笔记/23.md)
 
