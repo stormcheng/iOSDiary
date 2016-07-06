@@ -10,7 +10,7 @@
    * [04 - 加载Mani.storyboard](04_-_jia_zai_mani__storyboard.md)
    * [05 - 控制器View的加载](04_-_kong_zhi_qi_de_jia_zai.md)
    * [06 - View生命周期](06_-_viewsheng_ming_zhou_qi.md)
-* [Quartz2D](quartz2d.md)
+* [第三章 Quartz2D](quartz2d.md)
    * [01 - Quartz2D简介](01_-_quartz2djian_jie.md)
    * [02 - 基本线条绘制](相关文件/iOS_笔记/`md.md)
    * [03 - 进度条](02_-_jin_du_tiao.md)
