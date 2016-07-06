@@ -1,8 +1,10 @@
 # 03 - UIApplicationDelegate
-```objc
-// AppDelegate:监听应用程序的生命周期
-// 以下方法就是应用程序的生命周期方法
 
+>- AppDelegate:监听应用程序的生命周期   
+- 以下方法就是应用程序的生命周期方法
+
+
+```objc
 // 应用程序启动完成的时候就会调用AppDelegate的方法
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     return YES;
