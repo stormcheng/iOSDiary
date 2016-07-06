@@ -1,6 +1,5 @@
 # Summary
 
-* [3 - 数据存储及KVC](3.md)
 * [简介](README.md)
    * [数据存储及KVC](shu_ju_cun_chu_ji_kvc.md)
 * [UI相关](chapter1.md)
