@@ -14,7 +14,7 @@
 * Quartz2D
    * [01 - Quartz2D简介](01_-_quartz2djian_jie.md)
    * 02 - 基本线条绘制
-   * [02 - 进度条](02_-_jin_du_tiao.md)
+   * [03 - 进度条](02_-_jin_du_tiao.md)
    * [04 - 饼图](03_-_bing_tu.md)
 * 小项目
    * [微博个人页](相关文件/iOS_笔记/23.md)
