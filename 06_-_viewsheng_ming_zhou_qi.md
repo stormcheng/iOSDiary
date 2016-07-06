@@ -17,7 +17,7 @@ viewDidLoad -> viewWillAppear -> viewWillLayoutSubviews -> viewDidLayoutSubviews
     self.datas = nil;
 }
 ```
-![](内存警告处理.png)
+![](images/内存警告处理.png)
 -----
 ```objc
 // 什么是控制器view的生命周期方法,一般以view开头的方法,都是view的生命周期
