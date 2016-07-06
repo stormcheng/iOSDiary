@@ -1,14 +1,14 @@
 # 核心动画
 01-CALayer的基本操作.
 	
-	1.CALayer简介:
-		CALayer我们又称它叫做层.
-		在每个UIView内部都有一个layer这样一个属性.
-		UIView之所以能够显示,就是因为它里面有这个一个层,才具有显示的功能.
-		我们通过操作CALayer对象,可以很方便地调整UIView的一些外观属性.
-		可以给UIView设置阴影,圆角,边框等等...
-		
-	2.操作layer改变UIView外观.
+ ####1.CALayer简介:
+        CALayer我们又称它叫做层.
+		在每个UIView内部都有一个layer这样一个属性.    
+		UIView之所以能够显示,就是因为它里面有这个一个层,才具有显示的功能.     
+		我们通过操作CALayer对象,可以很方便地调整UIView的一些外观属性.    
+		可以给UIView设置阴影,圆角,边框等等...     
+                
+####2.操作layer改变UIView外观.
 	
 		2.1.设置阴影
 		默认图层是有阴影的, 只不过,是透明的
@@ -27,7 +27,7 @@
     	图层的圆角半径,圆角半径为宽度的一半, 就是一个圆
     	_RedView.layer.cornerRadius = 50;
 		
-	3.操作layer改变UIImageView的外观.
+####3.操作layer改变UIImageView的外观.
 		
     	设置图形边框
     	_imageView.layer.borderWidth = 2;
