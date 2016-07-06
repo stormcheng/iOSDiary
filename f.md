@@ -1,4 +1,4 @@
-# 01-程序启动原理
+# 01-程序启动过程
 一.`首先找到程序入口,执行main函数`
 ```objc
 main -> UIApplicationMain
