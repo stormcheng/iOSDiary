@@ -1,7 +1,7 @@
 # Summary
 
-* [简介](README.md)
 * [3 - 数据存储及KVC](3.md)
+* [简介](README.md)
 * [UI相关](chapter1.md)
    * [01 - 开发中常见文件](1.md)
 * 启动相关
