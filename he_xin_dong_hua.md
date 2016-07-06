@@ -43,7 +43,7 @@
     	想要让图片有圆角的效果.可以把masksToBounds这个属性设为YES,
     	当设为YES,把就会把超过根层以外的东西都给裁剪掉.
     	
-    4.layer的 CATransform3D属性.
+####4.layer的 CATransform3D属性.
       
       只有旋转的时候才可以看出3D的效果.
       旋转
