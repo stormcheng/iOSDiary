@@ -28,9 +28,14 @@
 		{
 			NSLog(@"每当请求到位置信息时, 都会调用此方法");  
 		}
-`iOS 6.0之后必须获取用户同意`
-![](3A3C0B58-80AA-44BF-B5A0-6C698878E380.png)
+   ----
+`iOS 6.0之后必须获取用户同意`   
 
+   ![](3A3C0B58-80AA-44BF-B5A0-6C698878E380.png)
+    
+        开发者可以在Info.plist中设置NSLocationUsageDescription说明定位的目的(Privacy - Location Usage Description)
+
+---
 ### 2. 后台定位
 1. 在前台定位基础上, 勾选后台模式Location updates
 ![](勾选后台模式location udpates.png)
@@ -63,7 +68,10 @@
 		2) 显著的位置变化定位服务(使用基站进行定位,所以必须要求设备有电话模块) 
 			> 当app被完全关闭时,也可以接收到位置通知,并让app进入到后台处理 
 			> 定位精度相比于上面,精度不大,所以耗电小,而且定位更新频率依据基站密度而定 
-	
+```objc
+        //开启显著位置变化
+	    [self.manager startMonitoringSignificantLocationChanges ];
+```
 	2. 应用场景
 		1) 如果要求定位及时,精度较高,并且运行时间较短,可使用标准定位; 
 		2) 如果长时间监控用户位置,用户移动速度比较快(例如打车软件),可使用后者 
