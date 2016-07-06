@@ -20,7 +20,7 @@
 
 ```
 
-####二.`loadView加载流程`</br>
+####二.`loadView加载流程`
 控制器View的决定权:*重写`LoadView`>`storyboard`>`nibName`>`xib`*
 
 ![](控制器view加载流程.png)
