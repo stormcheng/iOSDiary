@@ -76,13 +76,13 @@ UIWindowLevelAlert > UIWindowLevelStatusBar > UIWindowLevelNormal
 ```
 ####2.`注意：`
 
-> 2.1通过xib创建控制器原因:
+> 2.1 通过xib创建控制器原因:
 
 ```
 想通过Xib描述控制器的view
 ```
 
-> 2.2如何通过xib创建控制器
+> 2.2 如何通过xib创建控制器
 
 ```objc
  1.设置xib的文件拥有者是控制器,这时候xib就描述这个控制器
