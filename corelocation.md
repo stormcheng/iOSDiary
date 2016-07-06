@@ -27,8 +27,7 @@
 
 ### 2. 后台定位
 1. 在前台定位基础上, 勾选后台模式Location updates
-![image](./CoreLocation_Images/勾选后台模式location udpates.png)
-
+![](勾选后台模式location udpates.png)
 ### 3. 额外设置
 1. 每隔多少米定位一次
 	
