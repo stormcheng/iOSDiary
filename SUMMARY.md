@@ -25,5 +25,5 @@
    * [11 - 简单裁剪](11_-_jian_dan_cai_jian.md)
 * 小项目
    * [微博个人页](相关文件/iOS_笔记/23.md)
-* Quartz2D演练
+* [Quartz2D演练](quartz2dyan_lian.md)
 
