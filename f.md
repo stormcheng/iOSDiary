@@ -3,6 +3,10 @@
 ```objc
 main -> UIApplicationMain
 ```
+ 
+
+
+
 
 二.`UIApplicationMain底层做事情`
 ```objc
