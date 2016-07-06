@@ -2,8 +2,6 @@
 
 * [简介](README.md)
 * [01 - 开发中常见文件](1.md)
-* [第一章 UI相关](chapter1.md)
-   * [01 - 开发中常见文件](1.md)
 * [第二章 启动相关](qi_dong_xiang_guan.md)
    * [01- 程序启动过程](f.md)
    * [02 - UIApplication](02_-.md)
