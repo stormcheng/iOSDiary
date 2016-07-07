@@ -110,7 +110,7 @@ http://opensource.apple.com/source/CF/CF-1151.16/
 
 （3）Runloop和相关类之间的关系图
 
- ![PNG](1.png)
+ ![PNG](images/11.png)
 
 （4）Runloop要想跑起来，它的内部必须要有一个mode,这个mode里面必须有source\observer\timer，至少要有其中的一个。
 
