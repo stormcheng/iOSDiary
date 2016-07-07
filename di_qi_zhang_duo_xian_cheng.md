@@ -103,7 +103,7 @@
 （1）pthread的基本使用（需要包含头文件）
 ```objc
     //使用pthread创建线程
-   pthread_t thread;
+    pthread_t thread;
     NSString *name = @"wendingding";
     //使用pthread创建线程
     //第一个参数：线程对象地址
@@ -118,8 +118,8 @@
 ###3.NSThread
 （1）NSThread的基本使用
 ```objc
-//第一种创建线程的方式：alloc init.
-//特点：需要手动开启线程，可以拿到线程对象进行详细设置
+    //第一种创建线程的方式：alloc init.
+    //特点：需要手动开启线程，可以拿到线程对象进行详细设置
     //创建线程
     /*
      第一个参数：目标对象
@@ -130,8 +130,8 @@
      //启动线程
     [thread start];
 
-//第二种创建线程的方式：分离出一条子线程
-//特点：自动启动线程，无法对线程进行更详细的设置
+  //第二种创建线程的方式：分离出一条子线程
+  //特点：自动启动线程，无法对线程进行更详细的设置
     /*
      第一个参数：线程启动调用的方法
      第二个参数：目标对象
@@ -140,7 +140,7 @@
     [NSThread detachNewThreadSelector:@selector(run:) toTarget:self withObject:@"我是分离出来的子线程"];
 
 //第三种创建线程的方式：后台线程
-//特点：自动启动县城，无法进行更详细设置
+//特点：自动启动线程，无法进行更详细设置
 [self performSelectorInBackground:@selector(run:) withObject:@"我是后台线程"];
 ```
 （2）设置线程的属性
