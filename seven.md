@@ -1,16 +1,11 @@
 ##core data
 
-![](images/DAC067AF-42EE-4B21-BE49-B6891E78611F.png)
+![](DAC067AF-42EE-4B21-BE49-B6891E78611F.png)
 
 - （coreData的详解网址必看->）
 -
 http://www.cocoachina.com/ios/20130911/6981.html
 
-##事件的产生和传递
-![](images/13DA4D04-04F7-4BA5-A938-1DC78B444147.png)
-
-##hitTest方法的内部实现原理（递归）
-![](images/4A829737-C3EB-4641-A3A4-A17CAAA26B98.png)
 
 ##证书和授权文件
 
@@ -18,8 +13,8 @@ http://www.cocoachina.com/ios/20130911/6981.html
  -
  - http://blog.sina.com.cn/s/blog_8d1bc23f0102vtzo.html
 
-![](images/3F6ADE95-070C-4764-9898-A1402B1D0BF1.png)
-![](images/4EED0035-58E0-4D79-8309-61EAD6F9EA69.png)
+![](3F6ADE95-070C-4764-9898-A1402B1D0BF1.png)
+![](4EED0035-58E0-4D79-8309-61EAD6F9EA69.png)
 
 ##富文本
 
@@ -50,30 +45,3 @@ NSAttachmentAttributeName          设置文本附件,取值为NSTextAttachment�
 NSParagraphStyleAttributeName      设置文本段落排版格式，取值为 NSParagraphStyle 对象
 ```
 
-##重绘(位图上下文)
-```
-#pragma mark 对图片尺寸进行压缩--
-- (UIImage*)imageWithImage:(UIImage*)image scaledToSize:(CGSize)newSize
-{
-    // Create a graphics image context
-    UIGraphicsBeginImageContext(newSize);
-
-    // Tell the old image to draw in this new context, with the desired
-    // new size
-    [image drawInRect:CGRectMake(0,0,newSize.width,newSize.height)];
-
-    // Get the new image from the context
-    UIImage* newImage = UIGraphicsGetImageFromCurrentImageContext();
-
-    // End the context
-    UIGraphicsEndImageContext();
-
-    // Return the new image.
-    return newImage;
-}
-```
-
-##添加手势后的事件链传递
- - 手势的传递级别比touch方法高，优先寻找手势，没有手势再找touch方法。
-
-![](images/3AEC5117-691B-42E0-9BBC-3947303E2F13.png)
