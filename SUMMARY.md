@@ -31,9 +31,9 @@
 * [第九章 地图](di_qi_zhang_di_tu.md)
    * [CoreLocation](corelocation.md)
    * [MapKit](mapkit.md)
+* 第九章 多线程（3）
 * [Others](others.md)
    * [数据存储及KVC](shu_ju_cun_chu_ji_kevc.md)
    * [小项目](xiao_xiang_mu.md)
        * [微博个人页](相关文件/iOS_笔记/23md.md)
-* 第九章 多线程（3）
 
