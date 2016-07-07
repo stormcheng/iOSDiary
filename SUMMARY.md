@@ -21,7 +21,7 @@
    * [09 - 上下文矩阵操作](09_-_shang_xia_wen_ju_zhen_cao_zuo.md)
    * [10 - 图片水印](10_-_tu_pian_shui_yin.md)
    * [11 - 简单裁剪](11_-_jian_dan_cai_jian.md)
-* [第三章 Quartz2D演练](quartz2dyan_lian.md)
+* [第三章 Quartz2D演练（2）](quartz2dyan_lian.md)
 * [第四章 核心动画](he_xin_dong_hua.md)
    * [01 - CALayer](01_-_calayer.md)
    * [01 - CoreAnimation](01_-.md)
