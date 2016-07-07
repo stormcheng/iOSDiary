@@ -27,6 +27,7 @@
    * [01 - CoreAnimation](01_-.md)
 * [第六章 核心动画演练](he_xin_dong_hua_yan_lian.md)
 * [第七章 多线程（1）](di_qi_zhang_duo_xian_cheng.md)
+* 第七章 多线程（2）
 * [第八章 地图](di_qi_zhang_di_tu.md)
    * [CoreLocation](corelocation.md)
    * [MapKit](mapkit.md)
@@ -34,5 +35,4 @@
    * [数据存储及KVC](shu_ju_cun_chu_ji_kevc.md)
    * [小项目](xiao_xiang_mu.md)
        * [微博个人页](相关文件/iOS_笔记/23md.md)
-* 第七章 多线程（2）
 
