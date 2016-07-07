@@ -94,7 +94,7 @@ http://opensource.apple.com/source/CF/CF-1151.16/
 
 （1）Runloop运行原理图
 
-![PNG](2.png)
+![](image/2.png)
 
 （2）五个相关的类
 
