@@ -122,34 +122,3 @@ Masonry的执行流程
 4.边界：edges
 ```
 
-- tableView如何显示数据
-    - 设置dataSource数据源
-    - 数据源要遵守UITableViewDataSource协议
-    - 数据源要实现协议中的某些方法
-
-```objc
-/**
- *  告诉tableView一共有多少组数据
- */
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-
-/**
- *  告诉tableView第section组有多少行
- */
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-
-/**
- *  告诉tableView第indexPath行显示怎样的cell
- */
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-
-/**
- *  告诉tableView第section组的头部标题
- */
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-
-/**
- *  告诉tableView第section组的尾部标题
- */
-- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
-```
