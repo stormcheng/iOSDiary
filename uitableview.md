@@ -1,5 +1,35 @@
 # UITableView
+## tableView如何显示数据
+    - 设置dataSource数据源
+    - 数据源要遵守UITableViewDataSource协议
+    - 数据源要实现协议中的某些方法
 
+```objc
+/**
+ *  告诉tableView一共有多少组数据
+ */
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+
+/**
+ *  告诉tableView第section组有多少行
+ */
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+
+/**
+ *  告诉tableView第indexPath行显示怎样的cell
+ */
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+/**
+ *  告诉tableView第section组的头部标题
+ */
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+
+/**
+ *  告诉tableView第section组的尾部标题
+ */
+- (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section
+```
 
 ## tableView性能优化 - cell的循环利用方式1
 
@@ -259,9 +289,7 @@ cell.accessoryView = [[UISwitch alloc] init];
 
 -   ![](F7115780-28C2-4963-90F2-DA284E2E8B49.png)
 
-##单选模式
-思路
+##单选模式思路
 -   ![](C25BD7C0-086A-4B03-A6B9-6EBC9BF84C2B.png)
-##将数组变为字典
-并进行排序
+##将数组变为字典并进行排序
 -   ![](B07EC083-5E84-4D73-9250-B8BD62D55E35.png)
