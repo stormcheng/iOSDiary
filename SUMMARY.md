@@ -28,7 +28,7 @@
 * [第六章 核心动画演练](he_xin_dong_hua_yan_lian.md)
 * [第七章 多线程（1）](di_qi_zhang_duo_xian_cheng.md)
 * 第八章 多线程（2）
-* [第八章 地图](di_qi_zhang_di_tu.md)
+* [第九章 地图](di_qi_zhang_di_tu.md)
    * [CoreLocation](corelocation.md)
    * [MapKit](mapkit.md)
 * [Others](others.md)
