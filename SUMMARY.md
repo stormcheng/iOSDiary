@@ -31,7 +31,7 @@
 * [第五章 多线程（3）](di_jiu_zhang_duo_xian_cheng_ff08_3.md)
 * [第六章 网络（1）](di_liu_zhang_wang_luo_ff08_1.md)
 * [第六章 网络（3）](di_liu_zhang_wang_luo_ff08_2.md)
-* [第六章 网络（3）](di_liu_zhang_wang_luo_ff08_3.md)
+* [第六章 网络（2）](di_liu_zhang_wang_luo_ff08_3.md)
 * [第十章 地图](di_qi_zhang_di_tu.md)
    * [CoreLocation](corelocation.md)
    * [MapKit](mapkit.md)
