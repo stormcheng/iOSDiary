@@ -1,13 +1,14 @@
 #01-iOS9新特性之关键字
 
-> iOS9新出的关键字:用来修饰属性,或者方法的参数,方法的返回值   
+> - iOS9新出的关键字:用来修饰属性,或者方法的参数,方法的返回值
+
 > - 好处:
     * 1.迎合swift
     * 2.提高我们开发人员开发规范,减少程序员之间交流
-
 * 注意:
     * iOS9新出关键字`nonnull`,`nullable`,`null_resettable`,`_Null_unspecified`只能`修饰对象,不能修饰基本数据类型`.
-    *
+    
+    
 * `nullable`作用:表示可以为空
 
 ```objc
@@ -31,20 +32,19 @@ nonnull: non:非 null:空
  @property (nonatomic, strong) NSString * _Nonnull icon;
 
  @property (nonatomic, strong) NSString * __nonnull icon;
-
-
 ```
 
 * 在`NS_ASSUME_NONNULL_BEGIN`和`NS_ASSUME_NONNULL_END`之间,定义的所有对象属性和方法默认都是nonnull
 
+----
+
 * `null_resettable`作用: get:不能返回为空, set可以为空
 
-```
+```objc
 // 书写方式:
 @property (nonatomic, strong, null_resettable) NSString *name;
 
  // 注意;如果使用null_resettable,必须 重写get方法或者set方法,处理传递的值为空的情况
-
 
 ```
 
