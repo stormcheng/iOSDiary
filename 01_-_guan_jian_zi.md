@@ -11,7 +11,7 @@
     *
 * `nullable`作用:表示可以为空
 
-```
+```objc
  nullable书写规范:
  // 方式一:
  @property (nonatomic, strong, nullable) NSString *name;
@@ -23,7 +23,7 @@
 ```
 * `nonnull`作用:不能为空
 
-```
+```objc
 nonnull: non:非 null:空
 
 书写格式:
@@ -51,7 +51,7 @@ nonnull: non:非 null:空
 
 * `_Null_unspecified`:不确定是否为空
 
-```
+```objc
 书写方式只有这种
     方式一
     @property (nonatomic, strong) NSString *_Null_unspecified name;
