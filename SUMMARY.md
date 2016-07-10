@@ -44,5 +44,5 @@
    * [约束](yue_shu.md)
 * [iOS9新特性](ios9xin_te_xing.md)
    * [01 - 关键字](01_-_guan_jian_zi.md)
-   * [02 - const,static,extern](02_-_const,static,extern.md)
+   * [02 - const,static,extern 简介](02_-_const,static,extern.md)
 
