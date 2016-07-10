@@ -10,7 +10,7 @@
 	注意:很多Blog都说使用宏，会消耗很多内存，我这验证并不会生成很多内存，宏定义的是常量，常量都放在常量区，只会生成一份内存。
 	![](/Snip20151014_1.png)
 
-```
+```objc
 // 常见的常量：抽成宏
 #define XMGAccount @"account"
 
@@ -39,7 +39,7 @@ static NSString * const account = @"account";
 
 *  `const基本使用`
 
-```
+```objc
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -96,7 +96,7 @@ static NSString * const account = @"account";
 	*	1.需求1:提供一个方法，这个方法的参数是地址，里面只能通过地址读取值,不能通过地址修改值
 	*	2.需求2:提供一个方法，这个方法的参数是地址，里面不能修改参数的地址。
 
-```
+```objc
 @implementation ViewController
 
 // const放*前面约束参数，表示*a只读
@@ -159,7 +159,7 @@ static NSString * const account = @"account";
  *	`extern工作原理`:
  	* 	先在当前文件查找有没有全局变量，没有找到，才会去其他文件查找。
  	
-```
+```objc
 // 全局变量：只有一份内存，所有文件共享，与extern联合使用。
 int a = 20;
 
