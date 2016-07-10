@@ -192,7 +192,7 @@ I
 *	static与const作用:声明一个只读的静态变量
 *	开发使用场景:在`一个文件中`经常使用的字符串常量，可以使用static与const组合
 
-```
+```objc
 // 开发中常用static修饰全局变量,只改变作用域
 
 // 为什么要改变全局变量作用域，防止重复声明全局变量。
@@ -228,7 +228,7 @@ static  NSString const *key1 = @"name";
 
 * GlobeConst.h
 
-```
+```objc
 /*******************************首页****************************/
 
 extern NSString * const nameKey = @"name";
@@ -238,7 +238,7 @@ extern NSString * const nameKey = @"name";
 
 * GlobeConst.m
 
-```
+```objc
 #import <Foundation/Foundation.h>
 
 /*******************************首页****************************/
