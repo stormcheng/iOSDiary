@@ -16,7 +16,7 @@
 *	使用`消息机制`前提，必须导入#import <objc/message.h>
 *	消息机制简单使用
 
-```
+```objc
  	// 创建person对象
     Person *p = [[Person alloc] init];
     
@@ -46,7 +46,7 @@
 *	方式二:使用runtime,交换方法.
 
 
-```
+```objc
 @implementation ViewController
 
 
@@ -115,7 +115,7 @@
 * 经典面试题：有没有使用performSelector，其实主要想问你有没有动态添加过方法。
 * 简单使用
 
-```
+```objc
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -168,7 +168,7 @@ void eat(id self,SEL sel)
 ####4.给分类添加属性
 * 原理：给一个类声明属性，其实本质就是给这个类添加关联，并不是直接把这个值的内存空间添加到类存空间。
 
-```
+```objc
 
 @implementation ViewController
 
@@ -221,7 +221,7 @@ static const char *key = "name";
 	* 需求：能不能自动根据一个字典，生成对应的属性。
 	* 解决：提供一个分类，专门根据字典生成对应的属性字符串。
 	
-```
+```objc
 	@implementation NSObject (Log)
 
 
@@ -273,7 +273,7 @@ static const char *key = "name";
 
 * 字典转模型的方式一：KVC
 
-```
+```objc
 @implementation Status
 
 
@@ -299,7 +299,7 @@ static const char *key = "name";
 	*  解决:重写对象的`setValue:forUndefinedKey:`,把系统的方法覆盖，
 就能继续使用KVC，字典转模型了。
 
-```
+```objc
 - (void)setValue:(id)value forUndefinedKey:(NSString *)key
 {
     
@@ -311,7 +311,7 @@ static const char *key = "name";
 	* 思路：利用运行时，遍历模型中所有属性，根据模型的属性名，去字典中查找key，取出对应的值，给模型的属性赋值。
 	* 步骤：提供一个NSObject分类，专门字典转模型，以后所有模型都可以通过这个分类转。 
 
-```
+```objc
 
 @implementation ViewController
 
@@ -477,6 +477,3 @@ static const char *key = "name";
 
 
 ```
-
-
-
