@@ -7,7 +7,7 @@
     * 2.提高我们开发人员开发规范,减少程序员之间交流
 
 * 注意:
-    * iOS9新出关键字nonnull,nullable,null_resettable,_Null_unspecified只能`修饰对象,不能修饰基本数据类型`.
+    * iOS9新出关键字`nonnull`,`nullable`,`null_resettable`,`_Null_unspecified`只能`修饰对象,不能修饰基本数据类型`.
     *
 * `nullable`作用:表示可以为空
 
